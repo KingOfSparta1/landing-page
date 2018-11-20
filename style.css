@@ -1,0 +1,139 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+li {
+    margin: 30px 80px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+i {
+    font-size: 30px;
+}
+
+#header-img figure img {
+    display: block;
+    position: relative;
+    max-height: 20vh;
+    margin: 20px;
+}
+
+figure {
+    display: flex;
+}
+
+figcaption {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+#section_form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 60px;
+
+}
+
+#submit {
+    background-color: #f8a013;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin:0 auto;
+    
+
+}
+
+.label {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.icon {padding:20px;
+color:#f8a013;}
+
+footer {text-align: center;
+}
+
+small {display:block;
+    background: rgba(128, 128, 128, 0.17);
+  
+}
+
+#elements {display:flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    
+   
+
+}
+#select {
+    margin:20px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    line-height: 20px;
+    border: 1px solid black;
+    
+   
+}
+
+#film {margin:0 auto;}
+
+button {margin:20px;
+background: #f8a013;
+padding:10px;
+font-weight: 600;}
+
+h3 {background: rgba(128, 128, 128, 0.42);
+    padding:20px;}
+
+h4 {padding:20px;}
+
+p {padding:0 20px;}
+
