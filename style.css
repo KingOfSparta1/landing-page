@@ -1,5 +1,4 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,23 +10,18 @@
     justify-content: space-between;
 }
 
-
-
 ul {
     display: flex;
     list-style-type: none;
-
 }
 
 li {
     margin: 30px 80px;
-
 }
 
 a {
     text-decoration: none;
     color: black;
-
 }
 
 i {
@@ -59,7 +53,6 @@ input {
     display: block;
     margin: 10px auto;
     padding: 10px 60px;
-
 }
 
 #submit {
@@ -68,15 +61,12 @@ input {
     font-weight: 600;
 }
 
-
 #content {
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 600px;
-    margin:0 auto;
-    
-
+    margin: 0 auto;
 }
 
 .label {
@@ -94,46 +84,55 @@ main {
     margin: 0 auto;
 }
 
-.icon {padding:20px;
-color:#f8a013;}
-
-footer {text-align: center;
+.icon {
+    padding: 20px;
+    color: #f8a013;
 }
 
-small {display:block;
+footer {
+    text-align: center;
+}
+
+small {
+    display: block;
     background: rgba(128, 128, 128, 0.17);
-  
 }
 
-#elements {display:flex;
+#elements {
+    display: flex;
     width: 100%;
     max-width: 1000px;
     justify-content: space-between;
-    
-   
-
 }
+
 #select {
-    margin:20px;
+    margin: 20px;
     text-align: center;
     letter-spacing: 1.3px;
     line-height: 20px;
     border: 1px solid black;
-    
-   
 }
 
-#film {margin:0 auto;}
+#film {
+    margin: 0 auto;
+}
 
-button {margin:20px;
-background: #f8a013;
-padding:10px;
-font-weight: 600;}
+button {
+    margin: 20px;
+    background: #f8a013;
+    padding: 10px;
+    font-weight: 600;
+}
 
-h3 {background: rgba(128, 128, 128, 0.42);
-    padding:20px;}
+h3 {
+    background: rgba(128, 128, 128, 0.42);
+    padding: 20px;
+}
 
-h4 {padding:20px;}
+h4 {
+    padding: 20px;
+}
 
-p {padding:0 20px;}
-
+p {
+    padding: 0 20px;
+}
